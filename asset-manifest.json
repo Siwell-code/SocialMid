@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SocialMid/static/css/main.db9d6e3a.css",
-    "main.js": "/SocialMid/static/js/main.22db8ad2.js",
+    "main.js": "/SocialMid/static/js/main.1f5457ed.js",
     "static/js/488.076872ac.chunk.js": "/SocialMid/static/js/488.076872ac.chunk.js",
     "static/media/snezhnye_gory_na_fone_vechernego_neba-2560x1707 (1).jpg": "/SocialMid/static/media/snezhnye_gory_na_fone_vechernego_neba-2560x1707 (1).f146481aef780fcdf6de.jpg",
     "index.html": "/SocialMid/index.html",
     "main.db9d6e3a.css.map": "/SocialMid/static/css/main.db9d6e3a.css.map",
-    "main.22db8ad2.js.map": "/SocialMid/static/js/main.22db8ad2.js.map",
+    "main.1f5457ed.js.map": "/SocialMid/static/js/main.1f5457ed.js.map",
     "488.076872ac.chunk.js.map": "/SocialMid/static/js/488.076872ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db9d6e3a.css",
-    "static/js/main.22db8ad2.js"
+    "static/js/main.1f5457ed.js"
   ]
 }
