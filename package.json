@@ -2,6 +2,7 @@
   "name": "01",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://siwell-code.github.io/SocialMid",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -38,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.3"
+    "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.1.1"
   }
 }
