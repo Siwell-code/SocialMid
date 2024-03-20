@@ -7,9 +7,7 @@ function Profile() {
   return (
     <div>
       <ProfileInfo />
-      <div >
-        <img className={s.img} src={img} />
-      </div>
+     
       <div>
         ava + des
       </div>
