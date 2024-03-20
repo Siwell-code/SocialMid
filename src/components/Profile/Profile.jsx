@@ -7,10 +7,6 @@ function Profile() {
   return (
     <div>
       <ProfileInfo />
-     
-      <div>
-        ava + des
-      </div>
       <MyPosts />
     </div>);
 }

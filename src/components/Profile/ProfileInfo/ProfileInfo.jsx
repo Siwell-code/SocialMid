@@ -8,7 +8,7 @@ export function ProfileInfo () {
       <div >
         <img className={s.img} src={img} />
       </div>
-      <div>
+    <div  className={s.descriptionBlock}>
         ava + des
       </div>
     </div>);
