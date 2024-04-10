@@ -1,5 +1,4 @@
 let state = {
-
   profilePage: {
     posts: [
       { id: 1, message: 'HI', likesCount: 12 },
@@ -9,7 +8,6 @@ let state = {
       { id: 2, message: 'Hi, how are you?', likesCount: 1 }
     ]
   },
-
   dialogsPage: {
     messages: [
       { id: 1, message: 'HI' },
@@ -30,4 +28,4 @@ let state = {
   }
 }
 
-export default state;  
+export default state;

@@ -3,7 +3,6 @@ import MyPosts from './My posts/MyPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 function Profile(props) {
-debugger;
   return (
     <div>
       <ProfileInfo />
