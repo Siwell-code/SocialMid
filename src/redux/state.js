@@ -9,9 +9,8 @@ let state = {
       { id: 2, message: 'Hi, how are you?', likesCount: 1 }
     ]
   },
-  
-  messagesPage: {
 
+  dialogsPage: {
     messages: [
       { id: 1, message: 'HI' },
       { id: 2, message: 'HI' },

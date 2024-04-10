@@ -21,10 +21,9 @@ function App(props) {
       <div className="app-wrapper-content">
         <Switch>
           <Route exact path="/profile"
-            render={() => <Profile posts={props.appState.posts} />} />
+            render={() => <Profile state={props.state.profilePage} />} />
           <Route path="/dialogs"
-            render={() => <Dialogs dialogs={props.appState.dialogs}
-              messages={props.appState.messages} />} />
+            render={() => <Dialogs state={props.state.dialogsPage} />} />
           <Route path="/news"
             render={() => <News />} />
           <Route path="/music"
