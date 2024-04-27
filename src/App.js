@@ -7,21 +7,19 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settigns/Settings";
-
 import { Route, Switch } from "react-router-dom";
 
 function App(props) {
-
-
   return (
-
     < div className="app-wrapper" >
       <Header />
       <Navbar />
       <div className="app-wrapper-content">
         <Switch>
           <Route exact path="/profile"
-            render={() => <Profile state={props.state.profilePage} addPost={props.addPost}/>} />
+            render={() => <Profile 
+              profilePage={props.state.profilePage}
+              dispatch={props.dispatch}/>} />
           <Route path="/dialogs"
             render={() => <Dialogs state={props.state.dialogsPage} />} />
           <Route path="/news"
