@@ -5,7 +5,7 @@ const Post = (props) => {
 
     return (
         <div className={s.item}>
-            <img src='https://www.piratesofpowder.com/wp-content/uploads/2016/01/What-are-the-Best-Goggles-for-Snowboarding-and-Skiing.jpg' />
+            <img src='https://www.piratesofpowder.com/wp-content/uploads/2016/01/What-are-the-Best-Goggles-for-Snowboarding-and-Skiing.jpg' alt="e"/>
             { props.message }
             <div>
                 <span>like</span>

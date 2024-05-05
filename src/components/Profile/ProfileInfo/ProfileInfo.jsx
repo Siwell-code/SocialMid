@@ -6,7 +6,7 @@ export function ProfileInfo () {
   return (
     <div>
       <div >
-        <img className={s.img} src={img} />
+        <img className={s.img} src={img} alt = " "/>
       </div>
     <div  className={s.descriptionBlock}>
         ava + des
